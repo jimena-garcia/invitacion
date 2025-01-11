@@ -21,6 +21,18 @@ body {
   max-height: 40px; /* Ajusta este valor según el tamaño deseado */
 }
 
+.dresscode-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  height: auto;
+  object-fit: cover;
+  max-width: 300px; /* Ajusta este valor según el tamaño deseado */
+  max-height: 500px; /* Ajusta este valor según el tamaño deseado */
+}
+
+
 /* Fuente Poiret One */
 .poiret-one-regular {
   font-family: "Poiret One", serif;
@@ -332,10 +344,7 @@ body {
   background-color: #8c9dad;
 }
 
-#gifts {
-  text-align: center; /* Centra todo el contenido de la sección */
-  margin: 20px 0;
-}
+
 
 .gifts-title {
   font-family: 'Poiret One', sans-serif;
@@ -356,25 +365,57 @@ body {
 .hero {
   background-color: #2d4051; /* Color de fondo del héroe */
 }
+#hero {
+  text-align: center; /* Centra todo el contenido de la sección */
+  margin: 20px 0;
+}
 
 .story-box {
   background-color: #646885; /* Color de fondo de la caja de historia */
+}
+#story-box {
+  text-align: center; /* Centra todo el contenido de la sección */
+  margin: 20px 0;
 }
 
 .details {
   background-color: #516276; /* Fondo de la sección de detalles */
 }
+#details {
+  text-align: center; /* Centra todo el contenido de la sección */
+  margin: 20px 0;
+}
 
 .countdown {
   background-color: #8c9dad; /* Fondo de la sección de cuenta regresiva */
 }
+#countdown{
+  text-align: center; /* Centra todo el contenido de la sección */
+  margin: 20px 0;
+}
 
 .guests {
-  background-color: #2d4051; /* Fondo de la sección de invitados */
+  background-color: #516276; /* Fondo de la sección de invitados */
+}
+#guests {
+  text-align: center; /* Centra todo el contenido de la sección */
+  margin: 20px 0;
 }
 
 .gifts {
   background-color: #646885; /* Fondo de la sección de regalos */
+}
+
+#gifts {
+  text-align: center; /* Centra todo el contenido de la sección */
+  margin: 20px 0;
+}
+.dresscode {
+  background-color: #8c9dad;
+}
+#dresscode {
+  text-align: center; /* Centra todo el contenido de la sección */
+  margin: 20px 0;
 }
 
 /* Ajustes para pantallas pequeñas */
